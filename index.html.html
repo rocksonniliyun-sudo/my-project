@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Group Check</title>
+    <script>
+       function checkGroup() {
+         const group = document.getElementById("group").value;
+           if (group=="9") {
+              alert ("✅ Congratulation! You passed your presentation.");
+           } else {
+                alert ("❌ sorry, you have failed your presentation.");
+            }
+         }
+    </script>
+    </head>
+    <body>
+       <h2>Enter Your Group Number</h2>
+       <input type="text" id="group" placeholder="Enter group number">
+       <button onclick="checkGroup()">Submit</button>
+    </body>
+    </html>
